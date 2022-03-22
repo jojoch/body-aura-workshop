@@ -35,13 +35,13 @@ extension HumanPose {
     var color: HumanPoseColor {
         switch self {
         case .leftHandUp:
-            return .blue
+            return .yellow
         case .rightHandUp:
             return .red
         case .bothHandsUp:
-            return .yellow
-        case .notDetected:
             return .white
+        case .notDetected:
+            return .blue
         }
     }
 }
