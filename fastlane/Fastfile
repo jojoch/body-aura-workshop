@@ -1,0 +1,19 @@
+# By Jan Pacek 05/30/2020
+# STRV s.r.o. 2020
+# STRV
+
+# Fastlane Constants
+default_platform :ios
+fastlane_version "2.152.0"
+
+import_from_git(
+    url: ENV["FASTLANE_GIT_URL"] || "git@github.com:strvcom/ios-fastlane.git",
+    branch: "v4",
+    dependencies: ["CommonFastfile"],
+    path: "TestflightFastfile" # Use 'EnterpriseFastfile' for Enterprise deployment
+)
+
+desc "Install file templates"
+lane :install_templates do
+  sh "./Templates/ios-templates.sh install"
+end

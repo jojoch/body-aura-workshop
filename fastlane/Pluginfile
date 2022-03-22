@@ -1,0 +1,2 @@
+# Fastlane plugin to upload enterprise builds to AWS S3
+gem 'fastlane-plugin-aws_s3'

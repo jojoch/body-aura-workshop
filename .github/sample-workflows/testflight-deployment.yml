@@ -1,0 +1,76 @@
+### Testflight deployment workflow ###
+#
+# Builds an app and deploys it to Testflight.
+#
+# Secrets with the `IOS_DEPARTMENT_` prefix are automatically assigned to your repository by your iOS lead.
+#
+# MATCH_PASSWORD - password used for Fastlane Match encryption of codesigning assets
+# MATCH_CERTIFICATES_REPO - git repository where Fastlane Match codesigning assets are stored
+# APP_STORE_CONNECT_KEY_ID - App Store Connect API key id
+# APP_STORE_CONNECT_KEY_ISSUER_ID - App Store Connect API key issuer id
+# APP_STORE_CONNECT_KEY_CONTENT - Content of the private key file downloaded from the App Store Connect without new lines
+#
+# Read about how to generate an App Store Connect API key on https://github.com/strvcom/ios-fastlane
+#
+# Note: To enable Testflight deployment, change `path` argument in Fastfile from `EnterpriseFastfile` to `TestflightFastfile`
+#
+
+name: Testflight Deployment
+
+# - by default this workflow is triggered on every push (merge) to the develop branch and can be triggered manually in Github
+# - read about other possible triggers on https://help.github.com/en/actions/reference/events-that-trigger-workflows
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - develop
+
+jobs:
+  testflight_deployment:
+    name: Testflight Deployment
+    # runs-on: macos-latest # use this for repos outside of the STRV Github org
+    runs-on: [self-hosted, macOS, ios-builds]
+    timeout-minutes: 40
+
+    steps:
+      # checkout the project repository
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      # install dependencies from Gemfile
+      - name: Gemfile dependencies
+        run: bundle install
+
+      # uncomment Dependencies cache step when running on macos-latest
+      # - name: Dependencies cache
+      #   uses: actions/cache@v2
+      #   id: dependencies_cache
+      #   with: 
+      #     path: |
+      #       Pods
+      #       vendor
+      #     key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}-pods-${{ hashFiles('**/Podfile.lock') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-gems-
+
+      # uncomment Run tests step to test before deployment
+      # - name: Run tests
+      #   run: bundle exec fastlane tests
+      #   env:
+      #     WORKSPACE: STRV-template.xcworkspace
+      #     TEST_SCHEME: STRV-template - Development
+
+      # run testflight_deployment lane
+      - name: Testflight deployment
+        run: bundle exec fastlane testflight_deployment
+        env:
+          WORKSPACE: STRV-template.xcworkspace
+          TARGET: STRV-template
+          SCHEME: STRV-template
+          BUNDLE_ID: com.strv.STRV-template
+          TEAM_NAME: STRV Inc
+          APP_STORE_CONNECT_KEY_ID: ${{ secrets.APP_STORE_CONNECT_KEY_ID }}
+          APP_STORE_CONNECT_KEY_CONTENT: ${{ secrets.APP_STORE_CONNECT_KEY_CONTENT }}
+          APP_STORE_CONNECT_KEY_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_KEY_ISSUER_ID }}
+          MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+          MATCH_CERTIFICATES_REPO: ${{ secrets.MATCH_CERTIFICATES_REPO }}

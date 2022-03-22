@@ -1,0 +1,53 @@
+### Enterprise deployment workflow ###
+#
+# Builds an app signed with enterprise certificate and deploys it to AWS S3.
+#
+# Secrets with the `IOS_DEPARTMENT_` prefix are automatically assigned to your repository by your iOS lead.
+#
+# IOS_DEPARTMENT_ENTERPRISE_MATCH_PASSWORD - password for enterprise Fastlane Match codesigning
+# IOS_DEPARTMENT_AWS_S3_ACCESS_KEY_ID - access key id for AWS S3 build storage
+# IOS_DEPARTMENT_AWS_S3_ACCESS_KEY_SECRET - access key secret for AWS S3 build storage
+#
+
+name: Enterprise Deployment
+
+# - by default this workflow is triggered on every push (merge) to the develop branch and can be triggered manually in Github
+# - read about other possible triggers on https://help.github.com/en/actions/reference/events-that-trigger-workflows
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - develop
+
+jobs:
+  enterprise_deployment:
+    name: Enterprise Deployment
+    runs-on: [self-hosted, macOS, ios-builds]
+    timeout-minutes: 40
+
+    steps:
+      # checkout the project repository
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      # install dependencies from Gemfile
+      - name: Gemfile dependencies
+        run: bundle install
+
+      # uncomment Run tests step to test before deployment
+      # - name: Run tests
+      #   run: bundle exec fastlane tests
+      #   env:
+      #     WORKSPACE: STRV-template.xcworkspace
+      #     TEST_SCHEME: STRV-template - Development
+
+      # run enterprise_deployment lane, use branch name to select env file
+      - name: Enterprise deployment
+        run: bundle exec fastlane enterprise_deployment
+        env:
+          WORKSPACE: STRV-template.xcworkspace
+          SCHEME: STRV-template
+          BUNDLE_ID: com.strv.STRV-template
+          MATCH_PASSWORD: ${{ secrets.IOS_DEPARTMENT_ENTERPRISE_MATCH_PASSWORD }}
+          AWS_S3_ACCESS_KEY_ID: ${{ secrets.IOS_DEPARTMENT_AWS_S3_ACCESS_KEY_ID }}
+          AWS_S3_ACCESS_KEY_SECRET: ${{ secrets.IOS_DEPARTMENT_AWS_S3_ACCESS_KEY_SECRET }}

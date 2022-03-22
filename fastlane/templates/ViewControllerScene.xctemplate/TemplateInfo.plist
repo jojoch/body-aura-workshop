@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>UIViewController Template</string>
+	<key>Summary</key>
+	<string>UIViewController Template</string>
+	<key>SortOrder</key>
+	<string>30</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>CustomViewController</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>superClass</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>View Controller superclass</string>
+			<key>Description</key>
+			<string>Superclass of the created view controller</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>UIViewController</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>coordinatorType</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Coordinator Data Type</string>
+			<key>Description</key>
+			<string>Data type of coordinator that is responsible for coordinating the view controller</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Coordinator</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>viewModelType</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>View Model Name</string>
+			<key>Description</key>
+			<string>Name of view model</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>CustomViewModel</string>
+		</dict>
+	</array>
+</dict>
+</plist>

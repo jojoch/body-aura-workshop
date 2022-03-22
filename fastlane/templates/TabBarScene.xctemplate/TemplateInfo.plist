@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>UIViewController Template</string>
+	<key>Summary</key>
+	<string>UIViewController Template</string>
+	<key>SortOrder</key>
+	<string>30</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>CustomTabBarController</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>tabBarSuperClass</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Tab Bar Controller Superclass</string>
+			<key>Description</key>
+			<string>Superclass of the tab bar controller</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>UITabBarController</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>tabBarCoordinatorType</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Coordinator Name</string>
+			<key>Description</key>
+			<string>Name of flow coordinator</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>TabBarCoordinator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
