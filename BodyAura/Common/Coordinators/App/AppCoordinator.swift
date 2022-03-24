@@ -6,7 +6,6 @@
 //  Copyright © 2018 STRV. All rights reserved.
 //
 
-import AlamofireEasyLogger
 import Swinject
 import UIKit
 
@@ -16,14 +15,6 @@ final class AppCoordinator {
     private(set) lazy var activeSessions: [ActiveSceneSession] = []
 
     let assembler = Assembler()
-    let alamofireLogger = FancyAppAlamofireLogger(
-        prettyPrint: true,
-        logFunction: {
-            #if DEBUG
-                print($0)
-            #endif
-        }
-    )
 }
 
 // MARK: - AppCoordinating

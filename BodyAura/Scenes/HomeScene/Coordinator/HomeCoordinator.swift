@@ -26,10 +26,8 @@ final class HomeCoordinator {
 // MARK: - View Controller Factory
 extension HomeCoordinator {
     func makeHomeViewController() -> HomeViewController {
-        let viewController = R.storyboard.homeViewController.instantiateInitialViewController(
-            viewModel: resolve(HomeViewModel.self)
-        )
-
+        let viewController: HomeViewController = HomeViewController.storyboardInit(viewModel: resolve(HomeViewModel.self))
+        
         viewController.coordinator = self
 
         return viewController

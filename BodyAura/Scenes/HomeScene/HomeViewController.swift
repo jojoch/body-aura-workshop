@@ -10,7 +10,7 @@ import Combine
 import MetalKit
 import UIKit
 
-class HomeViewController: UIViewController, ViewModelContaining {
+class HomeViewController: UIViewController, ViewModelContaining, StoryboardInit {
     // MARK: Public Properties
     
     // swiftlint:disable:next implicitly_unwrapped_optional

@@ -32,20 +32,14 @@
 		27FAC4462479D452002F2A33 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAC4072479D452002F2A33 /* Coordinator.swift */; };
 		27FAC44A2479D452002F2A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FAC40D2479D452002F2A33 /* Assets.xcassets */; };
 		27FAC44B2479D452002F2A33 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27FAC40E2479D452002F2A33 /* Localizable.strings */; };
-		27FAC44E2479D452002F2A33 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAC4142479D452002F2A33 /* AppLogger.swift */; };
 		27FAC4562479D452002F2A33 /* UIWindowSceneDelegate+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAC41E2479D452002F2A33 /* UIWindowSceneDelegate+Convenience.swift */; };
 		27FAC4582479D452002F2A33 /* UISceneDelegate+AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAC4202479D452002F2A33 /* UISceneDelegate+AppCoordinator.swift */; };
-		27FAC45B2479D452002F2A33 /* Rswift+ViewModeled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAC4232479D452002F2A33 /* Rswift+ViewModeled.swift */; };
 		27FAC45E2479D452002F2A33 /* ViewModelAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAC4272479D452002F2A33 /* ViewModelAssembly.swift */; };
 		27FAC4612479D452002F2A33 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAC42B2479D452002F2A33 /* NibLoadableView.swift */; };
 		27FAC4622479D452002F2A33 /* NibNameIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAC42C2479D452002F2A33 /* NibNameIdentifiable.swift */; };
 		27FAC4632479D452002F2A33 /* LoadingAndRefreshConfiguring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAC42D2479D452002F2A33 /* LoadingAndRefreshConfiguring.swift */; };
 		27FAC4652479D452002F2A33 /* StoryboardInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FAC42F2479D452002F2A33 /* StoryboardInit.swift */; };
-		756043300B384236749A0F8A /* Pods_defaults_BodyAura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33454648722DD949C227FA4E /* Pods_defaults_BodyAura.framework */; };
-		954916BD26357E22009B253F /* XCGLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 954916BC26357E22009B253F /* XCGLogger */; };
-		954916C226357E64009B253F /* AlamofireEasyLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 954916C126357E64009B253F /* AlamofireEasyLogger */; };
 		954916CA26357F37009B253F /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 954916C926357F37009B253F /* Swinject */; };
-		954916D826358057009B253F /* CombineExt in Frameworks */ = {isa = PBXBuildFile; productRef = 954916D726358057009B253F /* CombineExt */; };
 		95491713263586A9009B253F /* CombineCocoaPublishers+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9549170A263586A9009B253F /* CombineCocoaPublishers+Convenience.swift */; };
 		95491714263586A9009B253F /* UIButton+CustomPublishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9549170B263586A9009B253F /* UIButton+CustomPublishers.swift */; };
 		95491715263586A9009B253F /* UISegmentControll+CustomPublishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9549170C263586A9009B253F /* UISegmentControll+CustomPublishers.swift */; };
@@ -68,7 +62,7 @@
 		CA8881C0267B6766006FE871 /* DetectPoseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8881BF267B6766006FE871 /* DetectPoseError.swift */; };
 		CA8881C4267B69F3006FE871 /* ServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8881C3267B69F3006FE871 /* ServiceAssembly.swift */; };
 		CA8881C8267B8470006FE871 /* HumanPoseColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8881C7267B8470006FE871 /* HumanPoseColor.swift */; };
-		CAE2D3D626F5FB610031A6C2 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE2D3D526F5FB610031A6C2 /* R.generated.swift */; };
+		CAC8F00527EBD4E7003493FC /* CombineExt in Frameworks */ = {isa = PBXBuildFile; productRef = CAC8F00427EBD4E7003493FC /* CombineExt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,20 +92,14 @@
 		27FAC4072479D452002F2A33 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		27FAC40D2479D452002F2A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27FAC40E2479D452002F2A33 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		27FAC4142479D452002F2A33 /* AppLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
 		27FAC41E2479D452002F2A33 /* UIWindowSceneDelegate+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindowSceneDelegate+Convenience.swift"; sourceTree = "<group>"; };
 		27FAC4202479D452002F2A33 /* UISceneDelegate+AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISceneDelegate+AppCoordinator.swift"; sourceTree = "<group>"; };
-		27FAC4232479D452002F2A33 /* Rswift+ViewModeled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rswift+ViewModeled.swift"; sourceTree = "<group>"; };
 		27FAC4272479D452002F2A33 /* ViewModelAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelAssembly.swift; sourceTree = "<group>"; };
 		27FAC42B2479D452002F2A33 /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
 		27FAC42C2479D452002F2A33 /* NibNameIdentifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibNameIdentifiable.swift; sourceTree = "<group>"; };
 		27FAC42D2479D452002F2A33 /* LoadingAndRefreshConfiguring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingAndRefreshConfiguring.swift; sourceTree = "<group>"; };
 		27FAC42F2479D452002F2A33 /* StoryboardInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInit.swift; sourceTree = "<group>"; };
 		2F2D361821B02C65001C1CC7 /* BodyAura (DEV).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BodyAura (DEV).app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33454648722DD949C227FA4E /* Pods_defaults_BodyAura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_defaults_BodyAura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36FA82697029EBA655B6C768 /* Pods-defaults-BodyAura.development - release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-BodyAura.development - release.xcconfig"; path = "Target Support Files/Pods-defaults-BodyAura/Pods-defaults-BodyAura.development - release.xcconfig"; sourceTree = "<group>"; };
-		3DC59E53B7091DDBF9226F89 /* Pods-defaults-BodyAura.staging - release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-BodyAura.staging - release.xcconfig"; path = "Target Support Files/Pods-defaults-BodyAura/Pods-defaults-BodyAura.staging - release.xcconfig"; sourceTree = "<group>"; };
-		8A8832D36ABCC22A930E3AD0 /* Pods-defaults-BodyAura.production - debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-BodyAura.production - debug.xcconfig"; path = "Target Support Files/Pods-defaults-BodyAura/Pods-defaults-BodyAura.production - debug.xcconfig"; sourceTree = "<group>"; };
 		9549170A263586A9009B253F /* CombineCocoaPublishers+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CombineCocoaPublishers+Convenience.swift"; sourceTree = "<group>"; };
 		9549170B263586A9009B253F /* UIButton+CustomPublishers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+CustomPublishers.swift"; sourceTree = "<group>"; };
 		9549170C263586A9009B253F /* UISegmentControll+CustomPublishers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentControll+CustomPublishers.swift"; sourceTree = "<group>"; };
@@ -121,9 +109,6 @@
 		95491710263586A9009B253F /* UIControl+CustomPublishers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+CustomPublishers.swift"; sourceTree = "<group>"; };
 		95491711263586A9009B253F /* UIRefreshControll+CustomPublishers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIRefreshControll+CustomPublishers.swift"; sourceTree = "<group>"; };
 		95491712263586A9009B253F /* UITextField+CustomPublishers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+CustomPublishers.swift"; sourceTree = "<group>"; };
-		A2253E65BF755037DFD29196 /* Pods-defaults-BodyAura.staging - debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-BodyAura.staging - debug.xcconfig"; path = "Target Support Files/Pods-defaults-BodyAura/Pods-defaults-BodyAura.staging - debug.xcconfig"; sourceTree = "<group>"; };
-		BA672EBA0702E92F5351E294 /* Pods-defaults-BodyAura.development - debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-BodyAura.development - debug.xcconfig"; path = "Target Support Files/Pods-defaults-BodyAura/Pods-defaults-BodyAura.development - debug.xcconfig"; sourceTree = "<group>"; };
-		BB8EEC79A7D628550A74A1F2 /* Pods-defaults-BodyAura.production - release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-BodyAura.production - release.xcconfig"; path = "Target Support Files/Pods-defaults-BodyAura/Pods-defaults-BodyAura.production - release.xcconfig"; sourceTree = "<group>"; };
 		C10117B424DD751800EBAE2B /* ViewControllerCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCoordinator.swift; sourceTree = "<group>"; };
 		C10117B524DD751800EBAE2B /* ParentCoordinatorContaining.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentCoordinatorContaining.swift; sourceTree = "<group>"; };
 		C10117BA24DD75B500EBAE2B /* HomeCoordinatorEventHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorEventHandling.swift; sourceTree = "<group>"; };
@@ -140,7 +125,6 @@
 		CA8881BF267B6766006FE871 /* DetectPoseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectPoseError.swift; sourceTree = "<group>"; };
 		CA8881C3267B69F3006FE871 /* ServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAssembly.swift; sourceTree = "<group>"; };
 		CA8881C7267B8470006FE871 /* HumanPoseColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanPoseColor.swift; sourceTree = "<group>"; };
-		CAE2D3D526F5FB610031A6C2 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		EF0271AE2491299A008CE976 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,10 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				756043300B384236749A0F8A /* Pods_defaults_BodyAura.framework in Frameworks */,
-				954916BD26357E22009B253F /* XCGLogger in Frameworks */,
-				954916C226357E64009B253F /* AlamofireEasyLogger in Frameworks */,
-				954916D826358057009B253F /* CombineExt in Frameworks */,
+				CAC8F00527EBD4E7003493FC /* CombineExt in Frameworks */,
 				954916CA26357F37009B253F /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,19 +141,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2349C88A638E56ABFFCF45E6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BA672EBA0702E92F5351E294 /* Pods-defaults-BodyAura.development - debug.xcconfig */,
-				8A8832D36ABCC22A930E3AD0 /* Pods-defaults-BodyAura.production - debug.xcconfig */,
-				36FA82697029EBA655B6C768 /* Pods-defaults-BodyAura.development - release.xcconfig */,
-				BB8EEC79A7D628550A74A1F2 /* Pods-defaults-BodyAura.production - release.xcconfig */,
-				A2253E65BF755037DFD29196 /* Pods-defaults-BodyAura.staging - debug.xcconfig */,
-				3DC59E53B7091DDBF9226F89 /* Pods-defaults-BodyAura.staging - release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		274E4D16247BCD5900755251 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,7 +208,6 @@
 				27FAC3FB2479D452002F2A33 /* Coordinators */,
 				27FAC4252479D452002F2A33 /* DependencyInjection */,
 				27FAC4182479D452002F2A33 /* Extensions */,
-				27FAC40F2479D452002F2A33 /* Managers */,
 				27FAC4292479D452002F2A33 /* Protocols */,
 				27742DDD247D661D003DDAC8 /* Types */,
 			);
@@ -317,27 +284,10 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		27FAC40F2479D452002F2A33 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				27FAC4132479D452002F2A33 /* Logging */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		27FAC4132479D452002F2A33 /* Logging */ = {
-			isa = PBXGroup;
-			children = (
-				27FAC4142479D452002F2A33 /* AppLogger.swift */,
-			);
-			path = Logging;
-			sourceTree = "<group>";
-		};
 		27FAC4182479D452002F2A33 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				95491709263586A9009B253F /* Publishers */,
-				27FAC4232479D452002F2A33 /* Rswift+ViewModeled.swift */,
 				27FAC4202479D452002F2A33 /* UISceneDelegate+AppCoordinator.swift */,
 				27FAC41E2479D452002F2A33 /* UIWindowSceneDelegate+Convenience.swift */,
 			);
@@ -368,12 +318,10 @@
 		2F2D360F21B02C65001C1CC7 = {
 			isa = PBXGroup;
 			children = (
-				CAE2D3D526F5FB610031A6C2 /* R.generated.swift */,
 				C15A8EBC23069EB300F7FCA8 /* Configurations */,
 				2F2D361A21B02C65001C1CC7 /* BodyAura */,
 				80DDAB1A1607C933FE948655 /* Frameworks */,
 				2F2D361921B02C65001C1CC7 /* Products */,
-				2349C88A638E56ABFFCF45E6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -398,7 +346,6 @@
 		80DDAB1A1607C933FE948655 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				33454648722DD949C227FA4E /* Pods_defaults_BodyAura.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -491,13 +438,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F2D364021B02C66001C1CC7 /* Build configuration list for PBXNativeTarget "BodyAura" */;
 			buildPhases = (
-				57D8001D4B65C3DB8FD2369B /* [CP] Check Pods Manifest.lock */,
-				CAE2D3D226F5F9970031A6C2 /* ShellScript */,
 				2F2D361421B02C65001C1CC7 /* Sources */,
 				2F2D361521B02C65001C1CC7 /* Frameworks */,
 				2F2D361621B02C65001C1CC7 /* Resources */,
 				2FBBE86D21E5221400E94371 /* Run Script - Swiftlint */,
-				1C1D5A3592D3CFDA7AE353E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -505,10 +449,8 @@
 			);
 			name = BodyAura;
 			packageProductDependencies = (
-				954916BC26357E22009B253F /* XCGLogger */,
-				954916C126357E64009B253F /* AlamofireEasyLogger */,
 				954916C926357F37009B253F /* Swinject */,
-				954916D726358057009B253F /* CombineExt */,
+				CAC8F00427EBD4E7003493FC /* CombineExt */,
 			);
 			productName = STRVWeatherMVVM;
 			productReference = 2F2D361821B02C65001C1CC7 /* BodyAura (DEV).app */;
@@ -540,10 +482,8 @@
 			);
 			mainGroup = 2F2D360F21B02C65001C1CC7;
 			packageReferences = (
-				954916BB26357E22009B253F /* XCRemoteSwiftPackageReference "XCGLogger" */,
-				954916C026357E64009B253F /* XCRemoteSwiftPackageReference "AlamofireEasyLogger" */,
 				954916C826357F37009B253F /* XCRemoteSwiftPackageReference "Swinject" */,
-				954916D626358057009B253F /* XCRemoteSwiftPackageReference "CombineExt" */,
+				CAC8F00327EBD4E7003493FC /* XCRemoteSwiftPackageReference "CombineExt" */,
 			);
 			productRefGroup = 2F2D361921B02C65001C1CC7 /* Products */;
 			projectDirPath = "";
@@ -569,23 +509,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1C1D5A3592D3CFDA7AE353E2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-defaults-BodyAura/Pods-defaults-BodyAura-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-defaults-BodyAura/Pods-defaults-BodyAura-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-defaults-BodyAura/Pods-defaults-BodyAura-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2FBBE86D21E5221400E94371 /* Run Script - Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -604,47 +527,6 @@
 			shellPath = /bin/sh;
 			shellScript = "podSwiftlint=\"${PODS_ROOT}/SwiftLint/swiftlint\"\n\nif [ -f \"$podSwiftlint\" ]; then\n    $podSwiftlint\nelse\n    echo \"'warning: Cannot find SwiftLint in the expected Cocoapods location.\"\nfi\n";
 		};
-		57D8001D4B65C3DB8FD2369B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-defaults-BodyAura-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CAE2D3D226F5F9970031A6C2 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$TEMP_DIR/rswift-lastrun",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				$SRCROOT/R.generated.swift,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -655,7 +537,6 @@
 				27FAC4362479D452002F2A33 /* AppDelegate.swift in Sources */,
 				95491718263586A9009B253F /* UIGestureRecognizer+CustomPublishers.swift in Sources */,
 				C10117BE24DD75B500EBAE2B /* HomeViewEventHandling.swift in Sources */,
-				27FAC45B2479D452002F2A33 /* Rswift+ViewModeled.swift in Sources */,
 				CA8881C8267B8470006FE871 /* HumanPoseColor.swift in Sources */,
 				C10117B724DD751800EBAE2B /* ParentCoordinatorContaining.swift in Sources */,
 				27FAC43B2479D452002F2A33 /* SceneConfiguration.swift in Sources */,
@@ -680,11 +561,9 @@
 				95491717263586A9009B253F /* UISwitch+CustomPublishers.swift in Sources */,
 				95491715263586A9009B253F /* UISegmentControll+CustomPublishers.swift in Sources */,
 				27FAC4342479D452002F2A33 /* ActiveSceneSession.swift in Sources */,
-				27FAC44E2479D452002F2A33 /* AppLogger.swift in Sources */,
 				27FAC4422479D452002F2A33 /* SceneCoordinating.swift in Sources */,
 				95491714263586A9009B253F /* UIButton+CustomPublishers.swift in Sources */,
 				27FAC4322479D452002F2A33 /* HomeViewController.swift in Sources */,
-				CAE2D3D626F5FB610031A6C2 /* R.generated.swift in Sources */,
 				27FAC4652479D452002F2A33 /* StoryboardInit.swift in Sources */,
 				274E4D19247BCD5900755251 /* ViewModelContaining.swift in Sources */,
 				27FAC43C2479D452002F2A33 /* SceneConfigurationsContainer.swift in Sources */,
@@ -846,13 +725,12 @@
 		};
 		2F2D364121B02C66001C1CC7 /* Development - Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA672EBA0702E92F5351E294 /* Pods-defaults-BodyAura.development - debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_OPTIMIZATION_PROFILE_FILE = "OptimizationProfiles/$(PROJECT_NAME).profdata";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = D6532TRNCE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THNASY6U4C;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				INFOPLIST_FILE = BodyAura/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -862,7 +740,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER)";
 				PRODUCT_MODULE_NAME = BodyAura;
 				PRODUCT_NAME = "$(APP_BUNDLE_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development enterprise.com.strv.*";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = BodyAura/Common/Metal/ShaderTypes.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -871,13 +749,12 @@
 		};
 		2F2D364221B02C66001C1CC7 /* Development - Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36FA82697029EBA655B6C768 /* Pods-defaults-BodyAura.development - release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_OPTIMIZATION_PROFILE_FILE = "OptimizationProfiles/$(PROJECT_NAME).profdata";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = D6532TRNCE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THNASY6U4C;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				INFOPLIST_FILE = BodyAura/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -887,7 +764,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER)";
 				PRODUCT_MODULE_NAME = BodyAura;
 				PRODUCT_NAME = "$(APP_BUNDLE_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development enterprise.com.strv.*";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = BodyAura/Common/Metal/ShaderTypes.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -959,13 +836,12 @@
 		};
 		C15A8EC623069FEA00F7FCA8 /* Production - Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A8832D36ABCC22A930E3AD0 /* Pods-defaults-BodyAura.production - debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_OPTIMIZATION_PROFILE_FILE = "OptimizationProfiles/$(PROJECT_NAME).profdata";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = D6532TRNCE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THNASY6U4C;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				INFOPLIST_FILE = BodyAura/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -975,7 +851,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER)";
 				PRODUCT_MODULE_NAME = BodyAura;
 				PRODUCT_NAME = "$(APP_BUNDLE_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development enterprise.com.strv.*";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = BodyAura/Common/Metal/ShaderTypes.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1041,13 +917,12 @@
 		};
 		C15A8EC923069FED00F7FCA8 /* Production - Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB8EEC79A7D628550A74A1F2 /* Pods-defaults-BodyAura.production - release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_OPTIMIZATION_PROFILE_FILE = "OptimizationProfiles/$(PROJECT_NAME).profdata";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = D6532TRNCE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THNASY6U4C;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				INFOPLIST_FILE = BodyAura/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1057,7 +932,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER)";
 				PRODUCT_MODULE_NAME = BodyAura;
 				PRODUCT_NAME = "$(APP_BUNDLE_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match InHouse enterprise.com.strv.*";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = BodyAura/Common/Metal/ShaderTypes.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1129,13 +1004,12 @@
 		};
 		EF0271B0249129B0008CE976 /* Staging - Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2253E65BF755037DFD29196 /* Pods-defaults-BodyAura.staging - debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_OPTIMIZATION_PROFILE_FILE = "OptimizationProfiles/$(PROJECT_NAME).profdata";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = D6532TRNCE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THNASY6U4C;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				INFOPLIST_FILE = BodyAura/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1145,7 +1019,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER)";
 				PRODUCT_MODULE_NAME = BodyAura;
 				PRODUCT_NAME = "$(APP_BUNDLE_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development enterprise.com.strv.*";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = BodyAura/Common/Metal/ShaderTypes.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1211,13 +1085,12 @@
 		};
 		EF0271B3249129BE008CE976 /* Staging - Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DC59E53B7091DDBF9226F89 /* Pods-defaults-BodyAura.staging - release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_OPTIMIZATION_PROFILE_FILE = "OptimizationProfiles/$(PROJECT_NAME).profdata";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = D6532TRNCE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THNASY6U4C;
 				ENABLE_TESTING_SEARCH_PATHS = YES;
 				INFOPLIST_FILE = BodyAura/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1227,7 +1100,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER)";
 				PRODUCT_MODULE_NAME = BodyAura;
 				PRODUCT_NAME = "$(APP_BUNDLE_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match InHouse enterprise.com.strv.*";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = BodyAura/Common/Metal/ShaderTypes.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1266,22 +1139,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		954916BB26357E22009B253F /* XCRemoteSwiftPackageReference "XCGLogger" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/DaveWoodCom/XCGLogger.git";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 7.0.1;
-			};
-		};
-		954916C026357E64009B253F /* XCRemoteSwiftPackageReference "AlamofireEasyLogger" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/jankaltoun/AlamofireEasyLogger";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 1.6.0;
-			};
-		};
 		954916C826357F37009B253F /* XCRemoteSwiftPackageReference "Swinject" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Swinject/Swinject.git";
@@ -1290,35 +1147,25 @@
 				minimumVersion = 2.7.1;
 			};
 		};
-		954916D626358057009B253F /* XCRemoteSwiftPackageReference "CombineExt" */ = {
+		CAC8F00327EBD4E7003493FC /* XCRemoteSwiftPackageReference "CombineExt" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/CombineCommunity/CombineExt.git";
+			repositoryURL = "https://github.com/CombineCommunity/CombineExt";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 1.3.0;
+				minimumVersion = 1.5.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		954916BC26357E22009B253F /* XCGLogger */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 954916BB26357E22009B253F /* XCRemoteSwiftPackageReference "XCGLogger" */;
-			productName = XCGLogger;
-		};
-		954916C126357E64009B253F /* AlamofireEasyLogger */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 954916C026357E64009B253F /* XCRemoteSwiftPackageReference "AlamofireEasyLogger" */;
-			productName = AlamofireEasyLogger;
-		};
 		954916C926357F37009B253F /* Swinject */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 954916C826357F37009B253F /* XCRemoteSwiftPackageReference "Swinject" */;
 			productName = Swinject;
 		};
-		954916D726358057009B253F /* CombineExt */ = {
+		CAC8F00427EBD4E7003493FC /* CombineExt */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 954916D626358057009B253F /* XCRemoteSwiftPackageReference "CombineExt" */;
+			package = CAC8F00327EBD4E7003493FC /* XCRemoteSwiftPackageReference "CombineExt" */;
 			productName = CombineExt;
 		};
 /* End XCSwiftPackageProductDependency section */
