@@ -35,10 +35,6 @@ typedef struct {
     // the clip space position of the vertex when this structure is returned from
     // the vertex shader
     float4 position [[position]];
-    // Since this member does not have a special attribute qualifier, the rasterizer
-    // will interpolate its value with values of other vertices making up the triangle
-    // and pass that interpolated value to the fragment shader for each fragment in
-    // that triangle.
     float2 texCoord;
 } ImageColorInOut;
 
